@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LASIC</title>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+
+    <nav class="navbar">
+      <main class="content">
+        <div class="navbar-logo">
+          <img src="logo-lasic.jpg" alt="Logo LASIC" />
+          <div class="logo-text">
+            <h1>LASIC</h1>
+            <p>Lasalimu Selatan Information Center</p>
+          </div>
+        </div>
+      </main>
+
+      <nav class="navbar-nav">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">Tentang Kami</a>
+        <a href="profile.html">Profil</a>
+
+       <div class="dropdown">
+          <button class="dropbtn" id="sekolahBtn">
+            Sekolah <span class="arrow">&#9662;</span>
+          </button>
+          <div class="dropdown-content" id="sekolahDropdown">
+            <a href="sd.html">SD</a>
+            <a href="smp.html">SMP</a>
+            <a href="sma.html">SMA</a>
+          </div>
+        </div>
+
+        
+        <a href="desa.html">Desa</a> 
+        <a href="tourism.html">Wisata</a>
+      </nav>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- About Section Start -->
+
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="logo-lasic.jpg" alt="Tentang Kami" />
+        </div>
+      </div>
+
+      <!-- Jumbotron -->
+
+      <section class="jumbotron">
+        <h1>Selamat Datang!</h1>
+        <p>
+          LASIC (Lasalimu Selatan Information Center) merupakan platform digital
+          yang menyediakan informasi lengkap tentang wilayah Lasalimu Selatan.
+          Dengan konsep “informasi dalam genggaman”, pengguna dapat mengakses
+          berbagai data seperti profil wilayah, sejarah, daftar sekolah,
+          informasi desa, suku-suku lokal, hingga potensi wisata. Website ini
+          dirancang untuk memberikan kemudahan dalam menjelajahi berbagai aspek
+          di wilayah Lasalimu Selatan, baik untuk masyarakat lokal maupun
+          pengunjung dari luar.
+        </p>
+      </section>
+
+      <!-- Three Columns -->
+
+      <main class="columns">
+        <div class="column">
+          <h2>Akses Informasi yang Mudah dan Cepat</h2>
+          <p>
+            LASIC memudahkan masyarakat dan pengunjung untuk mengakses berbagai
+            informasi penting tentang Lasalimu Selatan, seperti profil daerah,
+            sejarah, sekolah, desa, suku, dan wisata, dalam satu platform yang
+            praktis.
+          </p>
+        </div>
+
+        <div class="column">
+          <h2>Promosi Potensi Lokal dan Pariwisata</h2>
+          <p>
+            Dengan menampilkan informasi terkait wisata dan budaya, LASIC
+            membantu mempromosikan potensi lokal daerah, yang dapat menarik
+            wisatawan dan mendukung perkembangan pariwisata yang berkelanjutan.
+          </p>
+        </div>
+
+        <div class="column">
+          <h2>Meningkatkan Transparansi dan Partisipasi Masyarakat</h2>
+          <p>
+            LASIC memastikan informasi terkait kebijakan dan pembangunan daerah
+            dapat diakses dengan mudah, meningkatkan transparansi pemerintah,
+            serta mendorong keterlibatan aktif masyarakat dalam proses
+            pembangunan dan pengambilan keputusan.
+          </p>
+        </div>
+      </main>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- footer start -->
+
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#profile">Profil</a>
+        <a href="#school">Sekolah</a>
+        <a href="#village">Desa</a>
+        <a href="#tourism">Wisata</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">LasicTech Studio</a>. | &COPY; 2025.</p>
+      </div>
+    </footer>
+
+    <div class="marquee-container">
+      <p class="marquee-text">
+        SELAMAT DATANG DI LASIC (Lasalimu Selatan Informasi Center) KEC.
+        LASALIMU SELATAN KAB. BUTON SULAWESI TENGGARA
+      </p>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- Feather Icons -->
+
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

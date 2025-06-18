@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LASIC</title>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+
+    <nav class="navbar">
+      <main class="content">
+        <div class="navbar-logo">
+          <img src="logo-lasic.jpg" alt="Logo LASIC" />
+          <div class="logo-text">
+            <h1>LASIC</h1>
+            <p>Lasalimu Selatan Informasi Center</p>
+          </div>
+        </div>
+      </main>
+
+      <nav class="navbar-nav">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">Tentang Kami</a>
+        <a href="profile.html">Profil</a>
+
+       <div class="dropdown">
+          <button class="dropbtn" id="sekolahBtn">
+            Sekolah <span class="arrow">&#9662;</span>
+          </button>
+          <div class="dropdown-content" id="sekolahDropdown">
+            <a href="sd.html">SD</a>
+            <a href="smp.html">SMP</a>
+            <a href="sma.html">SMA</a>
+          </div>
+        </div>
+
+        
+      <a href="desa.html">Desa</a> 
+        <a href="tourism.html">Wisata</a>
+      </nav>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- About Section Start -->
+
+    <section id="about" class="about">
+      <h2><span>Kecamatan</span> Lasalimu Selatan</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="logo-kec.jpg" alt="logo-kec" />
+        </div>
+      </div>
+
+      <!-- Jumbotron -->
+
+      <section class="jumbotron">
+        <h1>Tentang Kecamatan</h1>
+        <p>
+          Kecamatan Lasalimu Selatan adalah salah satu kecamatan di Kabupaten
+          Buton, Provinsi Sulawesi Tenggara, yang terletak di bagian selatan
+          Pulau Buton. Kecamatan ini dikenal memiliki potensi alam yang subur,
+          terutama dalam sektor pertanian dan perkebunan, serta berperan penting
+          dalam ketahanan pangan daerah.
+          <br />
+          <br />
+          Lasalimu Selatan ditetapkan oleh Pemerintah Kabupaten Buton sebagai
+          kawasan lumbung pangan. Wilayah ini memiliki lahan pertanian yang
+          subur, cocok untuk komoditas seperti padi sawah, jagung, hortikultura,
+          dan sayur-sayuran. Pengembangan sektor pertanian di sini diharapkan
+          dapat memenuhi kebutuhan pangan Kabupaten Buton, Kota Baubau, Buton
+          Selatan, dan Wakatobi.
+          <br /><br />
+          Dengan potensi alam, sektor pertanian yang berkembang, serta dukungan
+          pendidikan dan budaya, Kecamatan Lasalimu Selatan berperan penting
+          dalam pembangunan Kabupaten Buton dan Provinsi Sulawesi Tenggara.
+        </p>
+      </section>
+
+      <!-- data demografis -->
+
+      <section>
+        <h2>Data Demografis</h2>
+        <div class="facts">
+          <div class="fact-card">
+            <h3>Populasi</h3>
+            <span>6.868 jiwa</span>
+          </div>
+          <div class="fact-card">
+            <h3>Luas Wilayah</h3>
+            <span>147,18 km²</span>
+          </div>
+          <div class="fact-card">
+            <h3>Jumlah Desa</h3>
+            <span>16 Desa</span>
+          </div>
+          <div class="fact-card">
+            <h3>Kepadatan</h3>
+            <span>46,66 jiwa/km²</span>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- footer start -->
+
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#profile">Profil</a>
+        <a href="#school">Sekolah</a>
+        <a href="#village">Desa</a>
+        <a href="#tourism">Wisata</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">LasicTech Studio</a>. | &COPY; 2025.</p>
+      </div>
+    </footer>
+
+    <div class="marquee-container">
+      <p class="marquee-text">
+        SELAMAT DATANG DI LASIC (Lasalimu Selatan Informasi Center) KEC.
+        LASALIMU SELATAN KAB. BUTON SULAWESI TENGGARA
+      </p>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- Feather Icons -->
+
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
